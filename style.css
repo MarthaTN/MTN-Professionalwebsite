@@ -46,25 +46,24 @@ body {
   padding: 20px 8%;
 }
 
-
 .logo {
   font-weight: 700;
   font-size: 1.2rem;
-  color: #ffffff; /* keep logo white */
+  color: #ffffff; 
   transition: transform 0.25s ease, text-shadow 0.25s ease;
   cursor: pointer;
 }
 
 .logo:hover {
-  transform: translateY(-1.5px); /* subtle lift */
-  text-shadow: 2px 2px 8px var(--accent)
+  transform: translateY(-1.5px);
+  text-shadow: 2px 2px 8px var(--accent);
 }
 
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 40px;
+  gap: 50px;
 }
 
 .nav-links a {
@@ -181,7 +180,7 @@ body {
   0% { transform: translateY(0px); }
   50% { transform: translateY(-10px); }
   100% { transform: translateY(0px); }
-  100% { transform: translateY(0px); }
+ 
 }
 
 .hero-image img {
