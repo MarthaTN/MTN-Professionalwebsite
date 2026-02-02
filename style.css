@@ -46,20 +46,6 @@ body {
   padding: 20px 8%;
 }
 
-/*
-.logo {
-  font-weight: 700;
-  font-size: 1.2rem;
-  color: var(--text-light);
-  transition: transform 0.3s ease, letter-spacing 0.3s ease;
-  cursor: pointer;
-}
-
-.logo:hover {
-  transform: translateY(-2px);
-  letter-spacing: 0.8px;
-}
-  */
 
 .logo {
   font-weight: 700;
@@ -340,4 +326,5 @@ body {
   background: #e2e8f0;
   font-size: 0.9rem;
 }
+
 
