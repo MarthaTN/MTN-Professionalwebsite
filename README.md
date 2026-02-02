@@ -149,8 +149,6 @@ I am Martha Taukuheke, a **passionate web developer and educator** based in Wind
 
 ## 🚀 Features
 
-- **Interactive Hero Section**  
-  Engaging introduction with rotating text to showcase my skills and approach.  
 
 - **Projects Showcase**  
   Highlights of real web projects with live demos and detailed descriptions.  
@@ -249,39 +247,10 @@ I am Martha Taukuheke, a **passionate web developer and educator** based in Wind
 
 ---
 
-## 💻 Featured Projects
-
-1. **Auto Biography Website**  
-   - Clean, responsive layout built with HTML & CSS  
-   - Interactive features and beginner-friendly design  
-   - [View Project Live](https://codepen.io/martha-taukuheke/pen/JojgyVr)  
-
-2. **Product Landing Page**  
-   - Modern landing page with responsive design  
-   - Accessible and optimized for user experience  
-   - [View Project Live](https://codepen.io/martha-taukuheke/pen/YPPYaGX)  
-
----
-
-## 📬 Contact Me
-
-I’m always open to collaborating on web development projects or providing guidance to learners:
-
-- **Location:** Windhoek, Namibia  
-- **Phone:** 081 785 6800  
-- **Email:** [marthataukuheke@gmail.com](mailto:marthataukuheke@gmail.com)  
-
----
-
-## 🎨 Design Philosophy
-
-I strive to combine **professionalism, confidence, and a modern tech vibe** in every project. My goal is to make websites that **not only look good but feel intuitive and trustworthy** to clients and users alike.
-
----
 
 ## 🔗 Live Portfolio
 
-Check out the full interactive experience here: [Martha Taukuheke Portfolio](#)  
+Check out the full interactive experience here: https://marthatn.github.io/MTN-Professionalwebsite/
 
 ---
 
@@ -305,4 +274,5 @@ I hope you enjoy exploring my projects and learning about my work.
 
 **Thank you for visiting my portfolio!**  
 I hope you enjoy exploring my projects and learning about my work.  
+
 
