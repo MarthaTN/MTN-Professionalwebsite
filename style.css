@@ -63,7 +63,7 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 50px;
+  gap: 40px;
 }
 
 .nav-links a {
@@ -225,7 +225,7 @@ body {
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
+  gap: 50px;
 }
 
 .project-card {
@@ -325,5 +325,6 @@ body {
   background: #e2e8f0;
   font-size: 0.9rem;
 }
+
 
 
