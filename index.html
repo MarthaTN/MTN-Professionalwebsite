@@ -4,13 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Martha Taukuheke | Software Developer</title>
+
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
 
-  <!-- ================= NAVIGATION ================= -->
+  <!-- ================= HEADER ================= -->
   <header class="header">
     <nav class="navbar">
       <div class="logo">Martha Taukuheke</div>
@@ -31,10 +32,9 @@
           <h2>Building Modern, Scalable Web Applications</h2>
 
           <p class="intro-text">
-            I design and develop clean, high-performance web systems using
-            HTML, CSS, JavaScript, and Django. I also simplify complex
-            programming concepts to help aspiring developers build
-            real confidence.
+            I develop clean, high-performance web systems using modern
+            front-end technologies and Python-based frameworks.
+            My focus is clarity, scalability, and real-world impact.
           </p>
 
           <div class="hero-buttons">
@@ -44,7 +44,7 @@
         </div>
 
         <div class="hero-image">
-          <img src="img/marthaT.jpg" alt="Martha Taukuheke">
+          <img src="img/marthaT.jpg" alt="Portrait of Martha Taukuheke">
         </div>
 
       </div>
@@ -52,90 +52,148 @@
   </header>
 
 
-  <!-- ================= ABOUT ================= -->
-  <section id="about" class="section about">
-    <div class="container">
-      <h2>Professional Profile</h2>
+  <!-- ================= MAIN ================= -->
+  <main>
 
-      <p>
-        I specialize in front-end development and modern web systems,
-        with a strong focus on clarity, performance, and maintainable code.
-        I continuously refine my technical skills while building
-        practical, real-world applications that solve meaningful problems.
-      </p>
-    </div>
-  </section>
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2>Professional Profile</h2>
 
+        <p>
+          I am a front-end focused software developer passionate about
+          building responsive, accessible, and maintainable web applications.
+          I continuously refine my skills through hands-on projects and
+          technical problem-solving.
+        </p>
 
-  <!-- ================= PROJECTS ================= -->
-  <section id="projects" class="section projects">
-    <div class="container">
-      <h2>Selected Projects</h2>
-
-      <div class="project-grid">
-
-        <div class="project-card">
-          <img src="img/Screenshot1.png" alt="Auto Biography Website">
-          <h3>Auto Biography Website</h3>
-          <p class="project-description">
-            A responsive personal website built with semantic HTML and modern CSS layout techniques.
-          </p>
-
-          <div class="project-actions">
-            <a href="https://codepen.io/martha-taukuheke/pen/JojgyVr" target="_blank" class="project-btn">
-              Live Demo
-            </a>
-          </div>
+        <div class="skills">
+          <h3>Core Technologies</h3>
+          <ul>
+            <li>HTML5 & CSS3 (Responsive Design)</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Python & Django</li>
+            <li>Git & Version Control</li>
+          </ul>
         </div>
+      </div>
+    </section>
 
-        <div class="project-card">
-          <img src="img/Screenshot2.png" alt="Product Landing Page">
-          <h3>Product Landing Page</h3>
-          <p class="project-description">
-            A structured landing page focused on layout precision, accessibility, and responsive design.
-          </p>
 
-          <div class="project-actions">
-            <a href="https://codepen.io/martha-taukuheke/pen/YPPYaGX" target="_blank" class="project-btn">
-              Live Demo
-            </a>
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2>Selected Projects</h2>
+
+        <div class="project-grid">
+
+          <div class="project-card">
+            <img src="img/Screenshot1.png" alt="Auto Biography Website Screenshot">
+            <h3>Auto Biography Website</h3>
+
+            <p class="project-description">
+              A responsive personal website built with semantic HTML
+              and modern CSS layout techniques.
+            </p>
+
+            <div class="project-actions">
+              <a href="https://codepen.io/martha-taukuheke/pen/JojgyVr"
+                 target="_blank"
+                 class="project-btn">
+                Live Demo
+              </a>
+            </div>
           </div>
+
+          <div class="project-card">
+            <img src="img/Screenshot2.png" alt="Product Landing Page Screenshot">
+            <h3>Product Landing Page</h3>
+
+            <p class="project-description">
+              A structured landing page focused on layout precision,
+              accessibility, and responsive design.
+            </p>
+
+            <div class="project-actions">
+              <a href="https://codepen.io/martha-taukuheke/pen/YPPYaGX"
+                 target="_blank"
+                 class="project-btn">
+                Live Demo
+              </a>
+            </div>
+          </div>
+
         </div>
-
       </div>
-    </div>
-  </section>
+    </section>
 
 
-  <!-- ================= CONTACT ================= -->
-  <section id="contact" class="section contact">
-    <div class="container">
-      <h2>Let’s Work Together</h2>
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Let’s Work Together</h2>
 
-      <div class="contact-wrapper">
+        <div class="contact-wrapper">
 
-        <form class="contact-form">
-          <input type="email" placeholder="Your Email">
-          <textarea rows="4" placeholder="Your Message"></textarea>
-          <button type="submit" class="btn primary-btn">Send Inquiry</button>
-        </form>
+          <!-- FORM (Replace FORM_ID with your Formspree ID) -->
+          <form class="contact-form"
+                action="https://formspree.io/f/YOUR_FORM_ID"
+                method="POST">
 
-        <div class="contact-info">
-  <p><i class="fa-solid fa-location-dot"></i> Windhoek, Namibia</p>
-  <p><i class="fa-solid fa-phone"></i> 081 785 6800</p>
-  <p><i class="fa-solid fa-envelope"></i> marthataukuheke@gmail.com</p>
-</div>
+            <label for="email">Your Email</label>
+            <input type="email"
+                   id="email"
+                   name="email"
+                   placeholder="you@example.com"
+                   required>
 
+            <label for="message">Your Message</label>
+            <textarea id="message"
+                      name="message"
+                      rows="4"
+                      placeholder="Write your message..."
+                      required></textarea>
+
+            <button type="submit" class="btn primary-btn">
+              Send Inquiry
+            </button>
+          </form>
+
+
+          <!-- CONTACT INFO -->
+          <div class="contact-info">
+            <p><i class="fa-solid fa-location-dot"></i> Windhoek, Namibia</p>
+            <p><i class="fa-solid fa-phone"></i> 081 785 6800</p>
+            <p><i class="fa-solid fa-envelope"></i> marthataukuheke@gmail.com</p>
+
+            <p>
+              <i class="fa-brands fa-github"></i>
+              <a href="https://github.com/MarthaTN" target="_blank">
+                GitHub Profile
+              </a>
+            </p>
+
+            <p>
+              <i class="fa-brands fa-linkedin"></i>
+              <a href="https://linkedin.com/in/martha-taukuheke-nambahu-73140995/" target="_blank">
+                LinkedIn Profile
+              </a>
+            </p>
+          </div>
+
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+  </main>
 
 
   <!-- ================= FOOTER ================= -->
   <footer class="footer">
     <p>© 2026 Martha Taukuheke • Designed & Built with Precision</p>
   </footer>
-<script src="script.js"></script>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
-
