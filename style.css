@@ -219,21 +219,20 @@ body {
   gap: 15px;
 }
 
-skills li {
+.skills li {
   background: var(--card);
   padding: 12px 18px;
   border-radius: 8px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.05);
   font-size: 0.95rem;
-  transition: all 0.3s ease; /* Add smooth hover transition */
+  transition: all 0.3s ease;
   cursor: default;
-}
+  border: 1px solid transparent; 
 
 .skills li:hover {
-  transform: translateY(-5px); /* moves up */
-  background: var(--accent-soft); /* subtle pink tint */
-  color: var(--text-light); /* text changes for contrast */
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transform: translateY(-3px);            
+  border: 1px solid var(--accent);        
+  box-shadow: 0 8px 20px rgba(192, 86, 111, 0.15); 
 }
 
 /* ================= PROJECTS ================= */
@@ -386,4 +385,5 @@ skills li {
     margin: auto;
   }
 }
+
 
