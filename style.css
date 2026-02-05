@@ -219,12 +219,21 @@ body {
   gap: 15px;
 }
 
-.skills li {
+skills li {
   background: var(--card);
   padding: 12px 18px;
   border-radius: 8px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.05);
   font-size: 0.95rem;
+  transition: all 0.3s ease; /* Add smooth hover transition */
+  cursor: default;
+}
+
+.skills li:hover {
+  transform: translateY(-5px); /* moves up */
+  background: var(--accent-soft); /* subtle pink tint */
+  color: var(--text-light); /* text changes for contrast */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
 /* ================= PROJECTS ================= */
@@ -318,6 +327,12 @@ body {
   border-color: var(--accent);
   box-shadow: 0 0 0 3px rgba(192, 86, 111, 0.2);
 }
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 12px;
+}
 
 .contact-info p {
   margin-bottom: 12px;
@@ -371,3 +386,4 @@ body {
     margin: auto;
   }
 }
+
