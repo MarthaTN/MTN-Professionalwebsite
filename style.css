@@ -81,11 +81,13 @@ body {
   color: var(--text-light);
   font-weight: 500;
   position: relative;
-  transition: 0.3s ease;
+  display: inline-block; /* IMPORTANT */
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .nav-links a:hover {
-  transform: translateY(-3px);
+  transform: translateY(-4px);
+  color: var(--accent-soft);
 }
 
 .nav-links a::after {
@@ -102,6 +104,7 @@ body {
 .nav-links a:hover::after {
   width: 100%;
 }
+
 
 /* ================= HERO ================= */
 
@@ -388,6 +391,7 @@ body {
     margin: auto;
   }
 }
+
 
 
 
