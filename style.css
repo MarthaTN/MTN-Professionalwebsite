@@ -111,8 +111,8 @@ body {
 .hero {
   min-height: 100vh;
   display: flex;
-  align-items: center;
-  padding: 0 8%;
+  align-items: flex-start;
+  padding: 140px 8% 60px 8%;
   color: var(--text-light);
 }
 
@@ -391,6 +391,7 @@ body {
     margin: auto;
   }
 }
+
 
 
 
