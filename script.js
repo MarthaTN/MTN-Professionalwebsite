@@ -67,36 +67,5 @@ window.addEventListener("scroll", revealOnScroll);
 revealOnScroll();
 
 
-// ===============================
-// CONTACT FORM VALIDATION
-// ===============================
-const form = document.querySelector(".contact-form");
 
-if (form) {
-  form.addEventListener("submit", function (e) {
-    const emailInput = this.querySelector('input[type="email"]');
-    const messageInput = this.querySelector("textarea");
 
-    const email = emailInput.value.trim();
-    const message = messageInput.value.trim();
-
-    // Check empty fields
-    if (!email || !message) {
-      e.preventDefault();
-      alert("Please complete all fields.");
-      return;
-    }
-
-    // Validate email format
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-      e.preventDefault();
-      alert("Please enter a valid email address.");
-      return;
-    }
-
-    // Optionally, you can show a temporary alert before submitting
-    alert("Thank you! Your message has been sent.");
-    // Formspree will handle submission automatically
-  });
-}
