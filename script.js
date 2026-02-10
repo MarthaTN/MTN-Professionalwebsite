@@ -66,6 +66,41 @@ revealElements.forEach(section => {
 window.addEventListener("scroll", revealOnScroll);
 revealOnScroll();
 
+const form = document.querySelector(".contact-form");
+
+
+// ===============================
+// CONTACT FORM VALIDATION
+// ===============================
+
+if (form) {
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault(); 
+
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: {
+          Accept: "application/json"
+        }
+      });
+
+      if (response.ok) {
+        alert("Thank you! Your message has been sent successfully.");
+        form.reset();
+      } else {
+        alert("Oops! Something went wrong. Please try again.");
+      }
+
+    } catch (error) {
+      alert("Network error. Please try again.");
+    }
+  });
+}
+
 
 
 
